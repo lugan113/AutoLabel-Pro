@@ -79,3 +79,65 @@ AutoLabel Pro supports a comprehensive range of SOTA detectors via a modular bac
 ```bash
 git clone https://github.com/lucygan113/AutoLabel-Pro.git
 cd AutoLabel-Pro
+```
+
+### Step 2: Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+
+### step 3: Run the application
+```bash
+python main_app_v5.py
+```
+
+## 📖 Quick Start Workflow
+
+## Load Data: 
+Click `Load Dataset Dir` to open your image folder.
+## Cold Start:
+Select `yolov8m-worldv2` from the model dropdown.
+Enter your target object (e.g., `giant panda`) in the **Prompt Input**.
+The system will auto-generate labels.
+## Human Correction:
+Correct any missing or wrong boxes manually.
+## Background Training:
+Click `Start Training`. The system will fine-tune a local model (e.g., `yolov11n`) in the background.
+Watch the Loss curve drop in the monitor panel.
+## Model Switch:
+Once training is done, switch to the fine-tuned `yolov11n`. It should now recognize your custom objects faster and more accurately.
+
+## ⌨️ Shortcuts
+
+| Key | Action |
+| :--- | :--- |
+| **A / D** | Previous / Next Image |
+| **R** | Toggle Draw Mode (Rectangle) |
+| **Delete** | Delete Selected Box |
+| **Ctrl + S** | Save Annotation (Auto-save supported) |
+| **Ctrl + Scroll** | Zoom Canvas |
+| **Mouse Middle** | Pan Canvas |
+
+---
+
+## 📜 Citation
+
+If you find this project useful for your research, please consider citing:
+
+```bibtex
+@misc{autolabelpro2026,
+  title={AutoLabel Pro: A Real-Time Human-in-the-Loop System for Data-Centric Object Detection},
+  author={Your Name},
+  year={2026},
+  publisher={GitHub},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/lugan113/AutoLabel-Pro}}
+}
+```
+
+### Acknowledgements
+This project is built upon the amazing work of [Ultralytics](https://github.com/ultralytics/ultralytics) and [YOLO-World](https://github.com/AILab-CVC/YOLO-World).
+
+
+
