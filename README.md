@@ -128,7 +128,7 @@ If you find this project useful for your research, please consider citing:
 ```bibtex
 @misc{autolabelpro2026,
   title={AutoLabel Pro: A Real-Time Human-in-the-Loop System for Data-Centric Object Detection},
-  author={Your Name},
+  author={Lu Gan & Xi li},
   year={2026},
   publisher={GitHub},
   journal={GitHub repository},
