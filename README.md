@@ -77,7 +77,7 @@ AutoLabel Pro supports a comprehensive range of SOTA detectors via a modular bac
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/lucygan113/AutoLabel-Pro.git
+git clone https://github.com/lugan113/AutoLabel-Pro.git
 cd AutoLabel-Pro
 ```
 
