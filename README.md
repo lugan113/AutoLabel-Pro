@@ -27,5 +27,5 @@
 ### Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/AutoLabel-Pro.git
+   git clone https://github.com/lucygan113/AutoLabel-Pro.git
    cd AutoLabel-Pro
