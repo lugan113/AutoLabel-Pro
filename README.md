@@ -6,7 +6,6 @@
 
 **AutoLabel Pro** is an intelligent annotation tool designed to accelerate object detection labeling. It integrates **YOLO-World** for zero-shot prompting and an **Active Learning** loop that allows the model to learn from user corrections in real-time.
 
-![Demo](assets/demo.gif) 
 <p align="center">
   <img src="assets/demo.gif" width="800" alt="AutoLabel Pro Demo">
 </p>
