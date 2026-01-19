@@ -30,8 +30,8 @@ Unlike traditional tools (like LabelImg) that act as static drawing boards, Auto
 The system adopts a multi-threaded **Producer-Consumer** architecture to ensure the UI remains frozen-free during heavy inference and training tasks.
 
 <p align="center">
-  <!-- 请确保你在 assets 文件夹下放了 architecture_diagram.png -->
-  <img src="assets/architecture_diagram.png" width="800" alt="System Architecture">
+  <!-- 请确保你在 assets 文件夹下放了 workflow.png -->
+  <img src="assets/workflow.png" width="800" alt="System Architecture">
 </p>
 
 ---
