@@ -1,7 +1,7 @@
 # AutoLabel Pro: Real-Time Human-in-the-Loop Annotation System
 
 <p align="center">
-  <!-- 建议将你的Logo或者主界面截图放在这里 -->
+ 
   <img src="assets/logo.png" width="120" alt="AutoLabel Pro Logo">
 </p>
 
@@ -22,7 +22,6 @@ Unlike traditional tools (like LabelImg) that act as static drawing boards, Auto
 ## 📸 Demo & Architecture
 
 <p align="center">
-  <!-- 请确保你在 assets 文件夹下放了一个 demo.gif -->
   <img src="assets/demo.gif" width="100%" alt="AutoLabel Pro Demo">
 </p>
 
@@ -30,7 +29,6 @@ Unlike traditional tools (like LabelImg) that act as static drawing boards, Auto
 The system adopts a multi-threaded **Producer-Consumer** architecture to ensure the UI remains frozen-free during heavy inference and training tasks.
 
 <p align="center">
-  <!-- 请确保你在 assets 文件夹下放了 workflow.png -->
   <img src="assets/workflow.png" width="800" alt="System Architecture">
 </p>
 
@@ -89,7 +87,7 @@ pip install -r requirements.txt
 
 ### step 3: Run the application
 ```bash
-python main_app_v5.py
+python main.py
 ```
 
 ## 📖 Quick Start Workflow
