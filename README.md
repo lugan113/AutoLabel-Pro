@@ -29,7 +29,7 @@ Unlike traditional tools (like LabelImg) that act as static drawing boards, Auto
   </a>
   <br>
   <em>Click the GIF to watch the full HD demo on YouTube (with Audio).</em>
-</p>>
+</p>
 
 ### System Architecture
 The system adopts a multi-threaded **Producer-Consumer** architecture to ensure the UI remains frozen-free during heavy inference and training tasks.
