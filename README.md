@@ -15,6 +15,8 @@
 
 ---
 
+
+
 **AutoLabel Pro** is an intelligent, data-centric annotation tool designed to accelerate object detection labeling workflows.
 
 Unlike traditional tools (like LabelImg) that act as static drawing boards, AutoLabel Pro integrates **YOLO-World** for zero-shot "Cold Start" and a **Background Training Engine** that fine-tunes local models in real-time as you label. This creates a closed **Human-in-the-Loop (HITL)** feedback cycle, significantly reducing manual effort.
@@ -22,8 +24,12 @@ Unlike traditional tools (like LabelImg) that act as static drawing boards, Auto
 ## 📸 Demo & Architecture
 
 <p align="center">
-  <img src="assets/demo.gif" width="100%" alt="AutoLabel Pro Demo">
-</p>
+  <a href="https://www.youtube.com/watch?v=shU62O8_40E">
+    <img src="assets/demo.gif" width="100%" alt="Click to watch full video on YouTube">
+  </a>
+  <br>
+  <em>Click the GIF to watch the full HD demo on YouTube (with Audio).</em>
+</p>>
 
 ### System Architecture
 The system adopts a multi-threaded **Producer-Consumer** architecture to ensure the UI remains frozen-free during heavy inference and training tasks.
